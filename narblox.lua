@@ -18,7 +18,7 @@
 
 	if not game:IsLoaded() then
 		local Loaded = Instance.new("Message",workspace)
-		Loaded.Text = 'Wait Game Loading'
+		Loaded.Text = 'Loading Dev: @Nar'
 		game.Loaded:Wait()
 		Loaded:Destroy()
 		wait(10)
@@ -13628,9 +13628,9 @@ task.spawn(function()
 	while task.wait() do
 		pcall(function()
 			if game.Workspace._WorldOrigin.Locations:FindFirstChild("Mirage Island") then
-				mr:Set("Mirage Island : Spawn ✅")
+				mr:Set("Mirage Island : Spawn Bang ✅")
 			else
-				mr:Set("Mirage Island : Not Spawn ❌")
+				mr:Set("Mirage Island : Ga Spawn Bang ❌")
 			end
 		end)
 	end
